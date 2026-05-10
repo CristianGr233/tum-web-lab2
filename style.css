@@ -97,22 +97,27 @@ body{
 }
 
 .products{
-  display: flex;
+  justify-content: flex-start;
+  display:flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 20px;
+  gap:20px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.product{
+.product {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 240px;
+
   padding: 10px;
   border-radius: 12px;
-}
 
+  transition: transform 0.2s ease;
+}
 .product:hover{
   border: 2px solid black;
 }
@@ -137,6 +142,14 @@ body{
   font-weight: bold;
   color: white;
   background-color: #457b9d;
+}
+
+.product img{
+  width: 220px;
+  height: 220px;
+
+  object-fit: contain;
+  display: block;
 }
 
 .container{
