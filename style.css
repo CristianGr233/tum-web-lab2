@@ -1,0 +1,95 @@
+body{
+  overflow-x: hidden;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+  display: flex;
+}
+
+.logo a{
+  display: flex;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo a:hover{
+  color: lightblue;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  left: 0%;
+  display: flex;
+  gap: 200px;
+  height: 42px;
+  width: 1920px;
+  background-color: #353434;
+}
+
+.navbar button{
+  top: 5px;
+  position: relative;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 5px;
+  right: 40px;
+}
+
+.navbar h2{
+  top: 2px;
+  left: 25%;
+  font-size: 40px;
+  color: white;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar h2:hover{
+  background-color: lightblue;
+}
+
+/* =========================
+   SEARCH
+========================= */
+
+.search_bar{
+  border-radius: 12px;
+}
+
+.sections{
+  display: flex;
+  gap: 80px;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.headings{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.headings h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+b{
+  font-weight: bold;
+}
